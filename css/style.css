@@ -1,0 +1,357 @@
+body {
+    display: flex;
+    font-family: 'Raleway', sans-serif;
+    background: radial-gradient(47.39% 118.47% at 3.68% -21.35%, rgba(255, 219, 19, 0.1) 0%, rgba(255, 125, 75, 0.1) 30.4%, rgba(231, 130, 247, 0.1) 62.15%, rgba(216, 65, 137, 0.1) 100%);
+}
+
+.hr-band {
+    margin-top: 15px;
+    border: 0.3px solid #f3e9e3;
+}
+
+.menu {
+    width: 239px;
+    margin-right: 50px;
+}
+.menu-logo {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 40px;
+    margin-left: 40px;
+}
+
+.menu-logo img {
+    margin-right: 10px;
+}
+
+.menu-logo h1 {
+    color: #37323C;
+}
+
+.menu-navbar {
+    width: 200px;
+    height: 100px;
+}
+
+.menu-navbar img {
+    margin-right: 15px;
+    margin-top: 10px;
+}
+
+.menu-navbar button {
+    display: flex;
+    width: 200px;
+    height: 50px;
+    padding-left: 35px;
+    border: none;
+    background: none;
+    cursor: pointer;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 15px;
+    color: #2D3134;
+}
+
+.menu-navbar>div {
+    margin-left: 10px;
+    margin-bottom: 40px;
+}
+
+.menu-navbar button:hover {
+    width: 200px;
+    height: 50px;
+    background: #FE8862;
+    border-radius: 16px;
+    color: #ffffff;
+}
+
+.menu-navbar button:active {
+    width: 200px;
+    height: 50px;
+    background: #FE8862;
+    border-radius: 16px;
+}
+
+.offers {
+    width: 1650px;
+    height: 870px;
+    margin-top: 30px;
+    margin-right: 15px;
+    align-items: center;
+    background: #FAF5F2;
+    border: 6px solid rgba(39, 41, 49, 0.07);
+    border-radius: 20px;
+    padding-right: 30px;
+    padding-left: 30px;
+}
+
+.offers-items {
+    display: flex;
+}
+
+.offers-nav {
+    display: flex;
+    margin-top: 30px;
+}
+
+.offers-nav>button {
+    display: flex;
+    align-items: center;
+    border: none;
+    background: none;
+    padding: 12px 17px;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 16px;
+    cursor: pointer;
+}
+
+.offers-nav>button:hover {
+    background: #FFFFFF;
+    border-radius: 10px;
+}
+
+.offers-nav>button:active {
+    background: #FFFFFF;
+    border-radius: 10px;
+}
+
+.offers-nav>button>img {
+    margin-right: 8px;
+}
+
+.offers>header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.offers>header>div {
+    display: flex;
+}
+
+.offers-item {
+    width: 343px;
+    height: 598px;
+    margin-top: 30px;
+    background: #FFFFFF;
+    box-shadow: 0px 10px 20px rgba(233, 216, 207, 0.3);
+    border-radius: 4px 20px 20px 20px;
+    padding-left: 14px;
+    padding-right: 14px;
+    margin-right: 40px;
+}
+
+.offers-item-header {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 17px;
+}
+
+.offers-item-logo {
+    display: flex;
+}
+
+.offers-item-logo img {
+    height: 36px;
+    width: 36px;
+    border-radius: 11px;
+}
+
+.offers-item-logo p {
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 16px;
+    margin-left: 7px;
+}
+
+.offers-item-button {
+    background: rgba(0, 198, 103, 0.08);
+    border-radius: 8px;
+    border: none;
+    width: 90px;
+    height: 30px;
+    color: #00C667;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 15px;
+}
+
+.offers-item-image {
+    display: flex;
+    justify-content: center;
+    margin-top: 7px;
+}
+
+.offers-item-image img {
+    width: 100%;
+    height: 160px;
+    border-radius: 4px 20px 20px 20px;
+}
+
+.offers-item-task {
+    height: 50px;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 19px;
+}
+
+.offers-item-present {
+    display: flex;
+    margin-top: -18px;
+    margin-bottom: 30px;
+    width: 269px;
+    height: 32px;
+}
+
+.offers-item-present img {
+    display: flex;
+    margin-top: 13px;
+    height: 18px;
+    width: 18px;
+}
+
+.offers-item-present p {
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 16px;
+    margin-left: 10px;
+    color: #FC5A8B;
+}
+
+.offers-item-hr-band {
+    border: 0.5px solid #ebecf1;
+}
+
+.header-title h1 {
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+    margin-top: 40px;
+}
+
+.offers-item-task-information {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.offers-item-task-information p {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 16px;
+    margin-left: 7px;
+}
+
+.circle {
+    display: flex;
+    background: #F93C47;
+    border-radius: 50px;
+    height: 30px;
+    width: 30px;
+    margin-left: 150px;
+    align-items: center;
+    justify-content: center;
+}
+
+.circle-second {
+    position: relative;
+    display: flex;
+    border-radius: 50px;
+    background: #F7F7FA;
+    height: 30px;
+    width: 30px;
+    margin-left: 180px;
+    align-items: center;
+    justify-content: center;
+}
+
+.circle-second p {
+    margin-right: 6px;
+    margin-bottom: 17px;
+    color: #9A99B8;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 16px;
+}
+
+.circle p {
+    margin-right: 6px;
+    margin-bottom: 17px;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 16px;
+}
+
+.offers-item-time-end {
+    width: 170px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(254, 136, 98, 0.08);
+    border-radius: 8px;
+}
+
+.offers-item-time-end p {
+    color: #FE8862;
+    font-weight: bold;
+    font-size: 13px;
+    line-height: 15px;
+}
+
+.offers-item-success {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #00C667;
+    width: 110px;
+    height: 30px;
+    border-radius: 8px;
+}
+
+.offers-item-success p {
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 16px;
+    color: #FFFFFF;
+}
+
+.header-search {
+    position: relative;
+}
+
+.header-search input {
+    width: 250px;
+    height: 36px;
+    background: #FFFFFF;
+    border-radius: 13px;
+    margin-top: 40px;
+    border: none;
+    outline: none;
+    box-shadow: none;
+    text-decoration: none;
+}
+
+.header-search input::placeholder {
+    padding-left: 35px;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 16px;
+    color: #9A99B8;
+}
+
+.header-search img {
+    position: absolute;
+    bottom: 18px;
+    left: 10px;
+}
+
+.header-user-avatar img {
+    margin-top: 40px;
+    margin-left: 17px;
+    border-radius: 50%;
+    cursor: pointer;
+}
